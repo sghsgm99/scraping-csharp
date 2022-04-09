@@ -1,0 +1,28 @@
+// Global Variable Declaration
+window.com = window.com || {};
+com.foodstuffs = com.foodstuffs || {};
+com.foodstuffs.SERVICE_URLS = {
+
+
+BaseServiceURL: 'https://www.paknsave.co.nz/',
+AuthenticationEndPoint: 'CommonApi/Account/Login',
+LogoutEndPoint: 'CommonApi/Account/UserLogout',
+ClearFulfilmentObjOnLogout: '/CommonApi/AnalyticsDataPush/ClearFulfilmentObjOnLogout',
+ForgotPassword: 'CommonApi/Account/PasswordReset',
+CartEndpoint: 'CommonApi/Cart/Index',
+EmptyTrolleyEndPoint: 'CommonApi/Cart/Clear',
+GetStoresEndpoint: 'BrandsApi/BrandsStore/GetBrandStores',
+SetStoreEndpoint: 'BrandsApi/BrandsStore/SetBrandStore',
+BrandsChangeStoreEndpoint:'BrandsApi/BrandsStore/BrandsChangeStore',
+UpdateGeolocationEndpoint: 'BrandsApi/BrandsStore/UpdateGeolocation',
+GetStoreEventsEndpoint: 'BrandsApi/StoreEvents/GetStoreEvents',
+GetGroceriesEndpoint: 'BrandsApi/Algoliasearch/GetGroceries',
+GetGroceriesItemsEndpoint: 'BrandsApi/Algoliasearch/GetGroceriesItems',
+GetRecipesEndpoint: 'BrandsApi/Algoliasearch/GetRecipesCount',
+GetAllSearchEndpoint: 'BrandsApi/Algoliasearch/GetAllSearchCount',
+MapboxPublicToken: 'pk.eyJ1IjoiZGlnaXRhbHRyaWFnZXRlYW0iLCJhIjoiY2p5M3RjcWF0MTJ2ajNoczd0eWI1Njc5OSJ9.c1dIxi9BIuZUs0yptvNgvA',
+ShoppingCartURL: '/shop/shopping-cart'
+};
+com.foodstuffs.SELECTED_REGION = {
+"name": "Lower North Island"
+};
